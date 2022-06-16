@@ -1,0 +1,171 @@
+@media (max-width: 1200px){/*________1200px_________*/
+	/*Title*/
+	.intro__title{
+		font-size: 50px;
+	}
+
+	/*Picture*/
+	.picture{
+		justify-content: center;
+	}
+	.picture__item{
+		width: 33.33333%;
+		border: 1px solid #fff;
+	}
+
+	/*Team*/
+	.team{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.team__member{
+		width: 40%;
+		margin-bottom: 30px
+	}
+	.team__photo{
+		width: 273px;
+		margin: 0 auto 20px;
+	}
+	.team__title{
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	.team__prof{
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.team__text{
+		margin-bottom: 15px;
+	}
+	.team__social{
+		margin: 0 auto;
+	}
+}/*________1200px_________*/
+
+
+
+@media (max-width: 990px){/*________990px_________*/
+	.nav__link{
+		margin-left: 20px;
+	}
+
+	/*Title*/
+	.intro__title{
+    font-size: 40px;
+  }
+  .intro__subtitle{
+  	font-size: 17px;
+  }
+
+  /*Services*/
+  .services{
+  	justify-content: space-around;
+  }
+  /*Reviews*/
+	.reviews__photo{
+		width: 100%;
+	}
+	.reviews__content{
+		margin: 0 auto;
+		padding: 20px 0;
+	}
+}/*________990px_________*/
+
+
+@media (max-width: 770px){/*________770px_________*/
+	.nav{
+		display: none;
+		position: absolute;
+		top: 100%;
+		right: 0;
+
+		width: 100%;
+		flex-direction: column;
+		background-color: #33144e;
+		text-align: right;
+	}
+	.nav.show {
+		display: flex;
+	}
+	.nav__link {
+		padding: 9px 15px;
+	}
+	.burger {
+		display: block;
+
+	}
+
+	/*Title*/
+	.intro__title{
+		font-size: 30px;
+	}
+
+	/*Services*/
+	.services{
+		justify-content: space-around;
+	}
+	.services__item{
+		width: 40%;
+	}
+
+	/*Picture*/
+	.picture__item{
+		width: 50%;
+	}
+
+	/*Team*/
+	.team {
+    justify-content: space-around;
+	}
+
+	/*Reviews*/
+	.reviews__text{
+		font-size: 25px;
+	}
+	/*Download*/
+	.download__title{
+		font-size: 22px;
+	}
+}/*________770px_________*/
+
+
+@media (max-width: 575px){/*________575px_________*/
+	/*Services*/
+	.services__item{
+		width: 100%;
+	}
+
+	/*Picture*/
+	.picture__item{
+		width: 100%;
+	}
+
+	/*Team*/
+	.team__member{
+		width: 100%;
+	}
+	.team__text{
+		padding-left: 20px;
+	}
+
+	/*Info*/
+	.info{
+		padding: 40px;
+	}
+	.info__inner{
+		flex-wrap: wrap;
+	}
+	.info__item{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.info__item:last-child{
+		margin-bottom: 0;
+	}
+	.info__title{
+		margin-bottom: 10px;
+	}
+}/*________575px_________*/
+
+
+
